@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Interactive Boxes</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <main class="container">
+      <!-- heading -->
+      <div class="heading flex">
+        <div class="horizontal-line"></div>
+        <h2>YAY! It's BOGO</h2>
+        <div class="horizontal-line"></div>
+      </div>
+
+      <div class="box-container flex">
+        <!-- box1 -->
+        <div class="box" id="box1">
+          <div>
+            <div class="product">
+              <div>
+                <div class="radio-btn">
+                  <div id="selected"></div>
+                </div>
+              </div>
+              <div>
+                <div>
+                  <h3>1 Unit</h3>
+                  <div class="discount">10% OFF</div>
+                </div>
+                <p>Standard Price</p>
+              </div>
+            </div>
+
+            <div class="price">
+              <p>$10.00 USD</p>
+              <del>$24.00 USD</del>
+            </div>
+          </div>
+
+          <div class="options-sec">
+            <div></div>
+            <div><small>Size</small></div>
+            <div><small>Colour</small></div>
+            <div><small>#1</small></div>
+            <div>
+              <select>
+                <option value="">S</option>
+              </select>
+            </div>
+            <div>
+              <select>
+                <option value="">Black</option>
+              </select>
+            </div>
+            <div><small>#2</small></div>
+            <div>
+              <select>
+                <option value="">S</option>
+              </select>
+            </div>
+            <div>
+              <select>
+                <option value="">Colour</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <!-- box2 -->
+        <div class="box" id="box2">
+          <div>
+            <div class="product">
+              <div>
+                <div class="radio-btn">
+                  <div id="selected"></div>
+                </div>
+              </div>
+              <div>
+                <div>
+                  <h3>1 Unit</h3>
+                  <div class="discount">10% OFF</div>
+                </div>
+                <p>Standard Price</p>
+              </div>
+            </div>
+            <div class="price">
+              <p>$10.00 USD</p>
+              <del>$24.00 USD</del>
+            </div>
+          </div>
+
+          <div class="options-sec">
+            <div></div>
+            <div><small>Size</small></div>
+            <div><small>Colour</small></div>
+            <div><small>#1</small></div>
+            <div>
+              <select>
+                <option value="">S</option>
+              </select>
+            </div>
+            <div>
+              <select>
+                <option value="">Black</option>
+              </select>
+            </div>
+            <div><small>#2</small></div>
+            <div>
+              <select>
+                <option value="">S</option>
+              </select>
+            </div>
+            <div>
+              <select>
+                <option value="">Colour</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="most-popular">MOST POPULAR</div>
+          
+        </div>
+
+        <!-- box3 -->
+        <div class="box" id="box3">
+          <div>
+            <div class="product">
+              <div>
+                <div class="radio-btn">
+                  <div id="selected"></div>
+                </div>
+              </div>
+              <div>
+                <div>
+                  <h3>1 Unit</h3>
+                  <div class="discount">10% OFF</div>
+                </div>
+                <p>Standard Price</p>
+              </div>
+            </div>
+            <div class="price">
+              <p>$10.00 USD</p>
+              <del>$24.00 USD</del>
+            </div>
+          </div>
+
+          <div class="options-sec">
+            <div></div>
+            <div><small>Size</small></div>
+            <div><small>Colour</small></div>
+            <div><small>#1</small></div>
+            <div>
+              <select>
+                <option value="">S</option>
+              </select>
+            </div>
+            <div>
+              <select>
+                <option value="">Black</option>
+              </select>
+            </div>
+            <div><small>#2</small></div>
+            <div>
+              <select>
+                <option value="">S</option>
+              </select>
+            </div>
+            <div>
+              <select>
+                <option value="">Colour</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- bottom sec -->
+      <div class="bottom-sec flex">
+        <div class="flex total-sec">
+          <p class="free-delievry">Free Delivery</p>
+          <p class="total">Total: $18.00 USD</p>
+        </div>
+        <button><i class="fa-solid fa-plus"></i>&nbsp;&nbsp;Add to Cart</button>
+        <p class="copyright"><i>&copy;Powered by Pumper</i></p>
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
