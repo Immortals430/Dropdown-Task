@@ -1,5 +1,5 @@
 
-# Project for Proveway Recruitment
+# Dropdown Task
 
 Simple dropdown boxes built for recruitment.
 
